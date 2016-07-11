@@ -21,10 +21,6 @@ This code book will describe the data used in this project, as well as the proce
 
 More information about the files is available in `README.txt`. More information about the features is available in `features_info.txt`.
 
-### Data files that were not used
-
-This analysis was performed using only the files above, and did not use the raw signal data. Therefore, the data files in the "Inertial Signals" folders were ignored.
-
 ### Processing steps
 
 1. All of the relevant data files were read into data frames, appropriate column headers were added, and the training and test sets were combined into a single data set.
@@ -38,11 +34,11 @@ Variables:
 
 In the 5th step I've melt the data down by 2 identifiers, other variables are calculated by mean()
 ###ID
- activities
- subj
+ activitylabel 
+ ID 
 
 
-###Measurements
+###Measurements/Mean and stardard deviation.
 
  tBodyAcc-mean-Y
  tBodyAcc-mean-Z
